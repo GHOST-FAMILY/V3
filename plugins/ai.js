@@ -9,7 +9,7 @@ const vm = require('vm')
 cmd({
     pattern: "blackbox",
     alias: ["bb"],
-    react: '👾',
+    react: '☠️',
     desc: "Blackbox ai chat",
     category: "search",
     use: '.blackbox ha',
