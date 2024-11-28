@@ -39,10 +39,10 @@ cmd({
 },
 async(conn, mek, m,{from, l, quoted, prefix, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-let dat = `[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
+let dat = `[GHOST-MD]
 ────────────────────────        
 
-  *𝗤𝗨𝗘𝗘𝗡 𝗜𝗭𝗨𝗠𝗜 𝗔𝗣𝗞 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥*
+  *GHOST-MD APK DOWNLOADING......*
 	
 ├───────────────────────┤`   
 
@@ -65,11 +65,11 @@ let dat = `[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
   contextInfo: {
 				
 				externalAdReply: { 
-					title: '🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚',
+					title: 'GHOST-MD',
 					body: 'ᴀɴ ᴜꜱᴇʀ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ',
 					mediaType: 1,
 					sourceUrl: "" ,
-          thumbnailUrl: 'https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg' ,
+          thumbnailUrl: 'https://files.catbox.moe/fkbuo0.jpg' ,
 					renderLargerThumbnail: false,
           showAdAttribution: true
          }}	
