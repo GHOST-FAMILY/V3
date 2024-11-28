@@ -6,7 +6,7 @@ const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, 
 
 cmd({
     pattern: "alive",
-    react: "👨‍💻",
+    react: "👋",
     alias: ["online","test","bot"],
     desc: "Check bot online or no.",
     category: "main",
@@ -28,7 +28,7 @@ if(config.ALIVE === "default") {
 	title: "",
 	rows: [
 	    {title: "1", rowId: prefix + 'menu' , description: 'COMMANDS MENU'},
-	    {title: "2", rowId: prefix + 'ping' , description: 'QUEEN-IZUMI-MD SPEED'},
+	    {title: "2", rowId: prefix + 'ping' , description: 'GHOST-MD SPEED'},
 
 	]
     } 
@@ -41,7 +41,7 @@ const listMessage = {
 *🕒Runtime:* ${runtime(process.uptime())}
 *📍Platform:* ${hostname}
 
-🐼This is the result of our teams hard work and our technical cybers team owns the bots rights and code rights. Therefore, you have no chance to change and submit our bot under any circumstances And 100 Commands And logo, thumbnail,banner Maker Commands Ai Chatbot feathers On Our Bot
+🐼This is the result of our teams hard work and our ghost-md team owns the bots rights and code rights. Therefore, you have no chance to change and submit our bot under any circumstances And 100 Commands And logo, thumbnail,banner Maker Commands Ai Chatbot feathers On Our Bot
                     
 *🌻Have A Nice Day..*🌻`,
   image : { url : config.LOGO} ,
@@ -51,11 +51,11 @@ const listMessage = {
   contextInfo: {
 				
 				externalAdReply: { 
-					title: '🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚',
+					title: 'GHOST-MD',
 					body: 'ᴀɴ ᴜꜱᴇʀ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ',
 					mediaType: 1,
 					sourceUrl: "" ,
-          thumbnailUrl: 'https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg' ,
+          thumbnailUrl: 'https://files.catbox.moe/fkbuo0.jpg' ,
 					renderLargerThumbnail: false,
           showAdAttribution: true
          }}	
@@ -69,7 +69,7 @@ else {
 	title: "",
 	rows: [
 	    {title: "1", rowId: prefix + 'menu' , description: 'COMMANDS MENU'},
-	    {title: "2", rowId: prefix + 'ping' , description: 'QUEEN-IZUMI-MD SPEED'} ,
+	    {title: "2", rowId: prefix + 'ping' , description: 'GHOST-MD SPEED'} ,
 
 	]
     } 
@@ -83,11 +83,11 @@ const listMessage = {
   contextInfo: {
 				
 				externalAdReply: { 
-					title: '🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚',
+					title: 'GHOST-MD',
 					body: 'ᴀɴ ᴜꜱᴇʀ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ',
 					mediaType: 1,
 					sourceUrl: "" ,
-          thumbnailUrl: 'https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg' ,
+          thumbnailUrl: 'https://files.catbox.moe/fkbuo0.jpg' ,
 					renderLargerThumbnail: false,
           showAdAttribution: true
          }}	
@@ -105,7 +105,7 @@ l(e)
 
 cmd({
     pattern: "ping",
-    react: "📟",
+    react: "⚡",
     alias: ["speed"],
     desc: "Check bot\'s ping",
     category: "main",
@@ -115,7 +115,7 @@ cmd({
 async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 var inital = new Date().getTime();
-let ping = await conn.sendMessage(from , { text: '```Pinging To QUEEN-IZUMI-MD!!!```'  }, { quoted: mek } )
+let ping = await conn.sendMessage(from , { text: 'GHOST-MD SPEED'  }, { quoted: mek } )
 var final = new Date().getTime();
 return await conn.edite(ping, '*Pong*\n *' + (final - inital) + ' ms* ' )
 } catch (e) {
@@ -127,7 +127,7 @@ l(e)
 
 cmd({
   pattern: "menu",
-  react: "👨‍💻",
+  react: "🪰",
   alias: ["panel","list","commands"],
   desc: "Get bot\'s command list.",
   category: "main",
@@ -162,7 +162,7 @@ if(config.ALIVE === "default"){
 const listMessage = {
   caption: `👋 ❤කොහොමද ${pushname} I'm alive now
     
-*👾 QUEEN-IZUMI-MD commands menu...*
+*👾 GHOST-MD commands menu...*
   
  *🚀Version:* ${require("../package.json").version}
  *⌛Memory:* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
@@ -175,11 +175,11 @@ const listMessage = {
   contextInfo: {
 				
 				externalAdReply: { 
-					title: '🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚',
+					title: 'GHOST-MD',
 					body: 'ᴀɴ ᴜꜱᴇʀ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ',
 					mediaType: 1,
 					sourceUrl: "" ,
-          thumbnailUrl: 'https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg' ,
+          thumbnailUrl: 'https://files.catbox.moe/fkbuo0.jpg' ,
 					renderLargerThumbnail: false,
           showAdAttribution: true
          }}	
@@ -213,11 +213,11 @@ const listMessage = {
   contextInfo: {
 				
 				externalAdReply: { 
-					title: '🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚',
+					title: 'GHOST-MD',
 					body: 'ᴀɴ ᴜꜱᴇʀ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ',
 					mediaType: 1,
 					sourceUrl: "" ,
-          thumbnailUrl: 'https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg' ,
+          thumbnailUrl: 'https://files.catbox.moe/fkbuo0.jpg' ,
 					renderLargerThumbnail: false,
           showAdAttribution: true
          }}	
