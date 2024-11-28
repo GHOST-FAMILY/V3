@@ -49,7 +49,7 @@ cmd({
     pattern: "yts",
     alias: ["ytsearch"],
     use: '.yts lelena',
-    react: "🔎",
+    react: "☠️",
     desc: descsh,
     category: "search",
     filename: __filename
@@ -84,7 +84,7 @@ await conn.sendMessage(from , { text:  mesaj }, { quoted: mek } )
 cmd({
     pattern: "yt",
     use: '.yt lelena',
-    react: "📽️",
+    react: "🎥",
     desc: descyt,
     category: "download",
     filename: __filename
@@ -117,11 +117,11 @@ const listMessage = {
   contextInfo: {
 				
 				externalAdReply: { 
-					title: '🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚',
+					title: 'GHOST-MD',
 					body: 'ᴀɴ ᴜꜱᴇʀ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ',
 					mediaType: 1,
 					sourceUrl: "" ,
-          thumbnailUrl: 'https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg' ,
+          thumbnailUrl: 'https://files.catbox.moe/fkbuo0.jpg' ,
 					renderLargerThumbnail: false,
           showAdAttribution: true
          }}	
@@ -131,7 +131,7 @@ return await conn.replyList(from, listMessage ,{ quoted : mek })
 }
 if(ytreg(q)){let dat = `[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
 
-*SELECT SONG TYPE*`
+*GHOST-MD SONG DOWNLOADING.....*`
 const sections = [
     {
 	title: "",
@@ -155,9 +155,9 @@ return await conn.replyList(from, listMessage ,{ quoted : mek })
 let yts = require("yt-search")
 let search = await yts(q)
 let anu = search.videos[0]
-const cap = `[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
+const cap = `[GHOST-MD]
 
-   *YT DOWNLOADER*
+   *GHOST-MD VIDEO DOWNLOADING.....*
 
 ╏🎀 *Title:* ${anu.title}
 ⦁
@@ -190,11 +190,11 @@ const listMessage = {
   contextInfo: {
 				
 				externalAdReply: { 
-					title: '🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚',
+					title: 'GHOST-MD',
 					body: 'ᴀɴ ᴜꜱᴇʀ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ',
 					mediaType: 1,
 					sourceUrl: "" ,
-          thumbnailUrl: 'https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg' ,
+          thumbnailUrl: 'https://files.catbox.moe/fkbuo0.jpg' ,
 					renderLargerThumbnail: false,
           showAdAttribution: true
          }}	
@@ -214,7 +214,7 @@ cmd({
     pattern: "video",
     alias: ["ytvideo"],
     use: '.video lelena',
-    react: "📽️",
+    react: "🎥",
     desc: descv,
     category: "download",
     filename: __filename
@@ -227,7 +227,7 @@ if (!q) return await reply(imgmsg)
 if(isUrl(q) && !ytreg(q)) return await reply(imgmsg)
 if(isUrl(q) && q.includes('/shorts')){let dat = `┌───[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
 
-  *SELECT TYPE*`
+  *GHOST-MD VIDEO DOWNLOADING.....*`
 
 const sections = [
     {
@@ -252,11 +252,11 @@ const listMessage = {
   contextInfo: {
 				
 				externalAdReply: { 
-					title: '🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚',
+					title: 'GHOST-MD',
 					body: 'ᴀɴ ᴜꜱᴇʀ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ',
 					mediaType: 1,
 					sourceUrl: "" ,
-          thumbnailUrl: 'https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg' ,
+          thumbnailUrl: 'https://files.catbox.moe/fkbuo0.jpg' ,
 					renderLargerThumbnail: false,
           showAdAttribution: true
          }}	
@@ -264,9 +264,9 @@ const listMessage = {
 
 return await conn.replyList(from, listMessage ,{ quoted : mek }) 				      
 }
-if(ytreg(q)){let dat = `[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
+if(ytreg(q)){let dat = `[GHOST-MD]
 
-*SELECT SONG TYPE*`
+*GHOST-MD SONG LIST*`
 const sections = [
     {
 	title: "",
@@ -296,9 +296,9 @@ return await conn.replyList(from, listMessage ,{ quoted : mek })
 let yts = require("yt-search")
 let search = await yts(q)
 let anu = search.videos[0]
-const cap = `[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
+const cap = `[GHOST-MD]
 
-   *YT DOWNLOADER*
+   *GHOST-MD YT VIDEO DOWNLOADING.....*
 
 ╏🎀 *Title:* ${anu.title}
 ⦁
@@ -336,11 +336,11 @@ const listMessage = {
   contextInfo: {
 				
 				externalAdReply: { 
-					title: '🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚',
+					title: 'GHOST-MD',
 					body: 'ᴀɴ ᴜꜱᴇʀ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ',
 					mediaType: 1,
 					sourceUrl: "" ,
-          thumbnailUrl: 'https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg' ,
+          thumbnailUrl: 'https://files.catbox.moe/fkbuo0.jpg' ,
 					renderLargerThumbnail: false,
           showAdAttribution: true
          }}	
@@ -361,7 +361,7 @@ cmd({
     pattern: "song",
     alias: ["ytsong"],
     use: '.song lelena',
-    react: "🎧",
+    react: "💿",
     desc: descs,
     category: "download",
     filename: __filename
@@ -394,11 +394,11 @@ const listMessage = {
   contextInfo: {
 				
 				externalAdReply: { 
-					title: '🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚',
+					title: 'GHOST-MD',
 					body: 'ᴀɴ ᴜꜱᴇʀ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ',
 					mediaType: 1,
 					sourceUrl: "" ,
-          thumbnailUrl: 'https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg' ,
+          thumbnailUrl: 'https://files.catbox.moe/fkbuo0.jpg' ,
 					renderLargerThumbnail: false,
           showAdAttribution: true
          }}	
@@ -406,7 +406,7 @@ const listMessage = {
 
 return await conn.replyList(from, listMessage ,{ quoted : mek }) 				      
 }
-if(ytreg(q)){let dat = `[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
+if(ytreg(q)){let dat = `[GHOST-MD]
 
 *SELECT SONG TYPE*`
 const sections = [
@@ -433,7 +433,7 @@ return await conn.replyList(from, listMessage ,{ quoted : mek })
 let yts = require("yt-search")
 let search = await yts(q)
 let anu = search.videos[0]
-const cap = `[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
+const cap = `[GHOST-MD]
 
    *YT DOWNLOADER*
 
@@ -469,11 +469,11 @@ const listMessage = {
   contextInfo: {
 				
 				externalAdReply: { 
-					title: '🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚',
+					title: 'GHOST-MD',
 					body: 'ᴀɴ ᴜꜱᴇʀ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ',
 					mediaType: 1,
 					sourceUrl: "" ,
-          thumbnailUrl: 'https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg' ,
+          thumbnailUrl: 'https://files.catbox.moe/fkbuo0.jpg' ,
 					renderLargerThumbnail: false,
           showAdAttribution: true
          }}	
@@ -496,7 +496,7 @@ cmd({
 },
 async(conn, mek, m,{from, l, quoted, prefix, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-let dat = `[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
+let dat = `[GHOST-MD]
 
   *SELECT SONG TYPE*`
 
@@ -519,11 +519,11 @@ let dat = `[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
   contextInfo: {
 				
 				externalAdReply: { 
-					title: '🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚',
+					title: 'GHOST-MD',
 					body: 'ᴀɴ ᴜꜱᴇʀ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ',
 					mediaType: 1,
 					sourceUrl: "" ,
-          thumbnailUrl: 'https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg' ,
+          thumbnailUrl: 'https://files.catbox.moe/fkbuo0.jpg' ,
 					renderLargerThumbnail: false,
           showAdAttribution: true
          }}	
@@ -544,7 +544,7 @@ cmd({
 },
 async(conn, mek, m,{from, l, quoted, prefix, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-let dat = `[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
+let dat = `[GHOST-MD]
 
   *SELECT SONG TYPE*`
 
@@ -572,11 +572,11 @@ let dat = `[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
   contextInfo: {
 				
 				externalAdReply: { 
-					title: '🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚',
+					title: 'GHOST-MD',
 					body: 'ᴀɴ ᴜꜱᴇʀ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ',
 					mediaType: 1,
 					sourceUrl: "" ,
-          thumbnailUrl: 'https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg' ,
+          thumbnailUrl: 'https://files.catbox.moe/fkbuo0.jpg' ,
 					renderLargerThumbnail: false,
           showAdAttribution: true
          }}	
@@ -1004,7 +1004,7 @@ return await conn.buttonMessage(from, buttonMessage, mek)}
 let yts = require("yt-search")
 let search = await yts(q)
 let anu = search.videos[0]
-const cap = `┌───[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
+const cap = `┌───[GHOST-MD]
 
    *YT DOWNLOADER*
 
