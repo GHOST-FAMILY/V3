@@ -11,7 +11,7 @@ if(config.LANG === 'SI') descg = "එය ඔබගේ mention දුන් ඡ�
 else descg = "It converts your replied photo to sticker."
 cmd({
     pattern: "sticker",
-    react: "🔮",
+    react: "🩷",
     alias: ["s","stic"],
     desc: descg,
     category: "convert",
