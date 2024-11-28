@@ -93,9 +93,9 @@ try{
 if (!fbreg(q)) return await  reply(urlneed)
 let data = await fbDownloader(q)
 let l = data.download
-let dat = `[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
+let dat = `[GHOST-MD]
 
-   *FB DOWNLOADER*
+   *GHOST-MD FB POST DOWNLOADING......*
 
 *📎 Url:* ${q}`
 if(!l[0]) return await reply(N_FOUND)
