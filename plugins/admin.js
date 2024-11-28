@@ -16,7 +16,7 @@ if(config.LANG === 'SI') ADMIN = "ඔබ admin නොවේ !"
 else ADMIN = "You are not an admin !"
 cmd({
     pattern: "hidetag",
-    react: "🔖",
+    react: "✔",
     alias: ["tagall",'tag'],
     desc: descg,
     category: "admin",
