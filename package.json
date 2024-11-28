@@ -1,9 +1,9 @@
 {
-"name": "QUEEN-IZUMI-MD",    
+"name": "GHOST-MD",    
 "version": "1.0.0",
 "scripts": {
-"start": "pm2 start index.js --deep-monitoring --attach --name QUEEN-IZUMI-MD",
-"stop": "pm2 stop QUEEN-IZUMI-MD",
+"start": "pm2 start index.js --deep-monitoring --attach --name GHOST-MD",
+"stop": "pm2 stop GHOST-MD",
 "restart": "git pull && npm stop && npm start",
 "stash": "git stash && git stash drop"
 },
