@@ -17,6 +17,6 @@ ONLY_GROUP: process.env.ONLY_GROUP || 'false',
 ANTI_LINK: process.env.ANTI_LINK || 'false' ,
 ANTI_BOT: process.env.ANTI_BOT || 'false',
 ALIVE: process.env.ALIVE || `default`,
-FOOTER: process.env.FOOTER ||  '©ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ',
-LOGO: process.env.LOGO || `https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg` 
+FOOTER: process.env.FOOTER ||  '©GHOST-MD',
+LOGO: process.env.LOGO || `https://files.catbox.moe/fkbuo0.jpg` 
 };
