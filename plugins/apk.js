@@ -17,7 +17,7 @@ else imgmsg = "```Please write a few words!```"
 
 cmd({
     pattern: "apk1",
-    react: "📱",
+    react: "💀",
     alias: ["findapk","playstore"],
     desc: urlneed,
     category: "download",
@@ -43,7 +43,7 @@ title: "_[Result from playstore.]_",
 rows: srh
 }]
 const listMessage = {
-text: `┌───[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
+text: `┌───[GHOST-MD]
 
    *APK DOWNLOADER*
 
@@ -74,7 +74,7 @@ let listdata = `*📚 Name :* ${data.name}
 *📦 Developer :* ${data.package}        
 *⬆️ Last update :* ${data.lastup}        
 *📥 Size :* ${data.size}
-ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴛᴇᴄʜɴɪᴄᴀʟ ᴄʏʙᴇʀꜱ`
+ᴄʀᴇᴀᴛᴇᴅ ʙʏ ɢʜᴏꜱᴛ-ᴍᴅ`
 await conn.sendMessage(from, { image: { url: data.icon }, caption: listdata }, { quoted: mek })
 if (data.size.includes('GB')) return await conn.sendMessage(from , { text: '*File size is too big...*' }, { quoted: mek } )
 if (data.size.includes('MB') && data.size.replace(' MB','') > config.MAX_SIZE) return await conn.sendMessage(from , { text: '*File size is too big...*' }, { quoted: mek } )
@@ -105,7 +105,7 @@ let listdata = `*📚 Name :* ${data.name}
 ├──────────────────        
 *📥 Size :* ${data.size}
 ├──────────────────        
-ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴛᴇᴄʜɴɪᴄᴀʟ ᴄʏʙᴇʀꜱ`
+ᴄʀᴇᴀᴛᴇᴅ ʙʏ ɢʜᴏꜱᴛ-ᴍᴅ`
 await conn.sendMessage(from, { image: { url: data.icon }, caption: listdata }, { quoted: mek })
 await conn.sendMessage(from, { react: { text: '📁', key: sendapk.key }})
 await conn.sendMessage(from, { react: { text: '✔', key: mek.key }})
