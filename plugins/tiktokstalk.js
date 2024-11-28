@@ -29,9 +29,9 @@ async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sen
 try{
 if(!q) return reply(needus)
 const dataget = await tikstalk(args[0])
-const cap = `[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
+const cap = `[GHOST-MD]
 
-    *TIKTOK STALKER*
+    *GHOST-MD TIKTOK STALKER DOWNLOADING......*
 
 *🆔 Username:* ${dataget.username}
 
