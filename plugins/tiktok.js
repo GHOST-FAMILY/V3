@@ -22,7 +22,7 @@ else urlneed = "*Please give me tiktok video url..*"
 cmd({
     pattern: "tiktok",
     alias: ["ttdl"],
-    react: '🏷️',
+    react: '🎥',
     desc: desc,
     category: "download",
     use: '.tiktok <Tiktok link>',
@@ -50,9 +50,9 @@ l = data
 }
 
 
-let dat = `[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
+let dat = `[GHOST-MD]
 
-*TIKTOK DOWNLOADER*
+*GHOST-MD TIKTOK VIDEO DOWNLOADING......*
 
 *📃 Title:* ${l.title}
 *✍🏼 Author:* ${l.author}`
@@ -76,11 +76,11 @@ const listMessage = {
 contextInfo: {
 				
 				externalAdReply: { 
-					title: '🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚',
+					title: 'GHOST-MD',
 					body: 'ᴀɴ ᴜꜱᴇʀ ʙᴏᴛ ꜰᴏʀ ᴡʜᴀᴛꜱᴀᴘᴘ',
 					mediaType: 1,
 					sourceUrl: "" ,
-          thumbnailUrl: 'https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg' ,
+          thumbnailUrl: 'https://files.catbox.moe/fkbuo0.jpg' ,
 					renderLargerThumbnail: false,
           showAdAttribution: true
          }}	
