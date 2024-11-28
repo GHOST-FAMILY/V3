@@ -95,7 +95,7 @@ title : "6"
 ]},
 ]
 const listMessage = {
-text: `[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
+text: `[GHOST-MD]
 
      *GROUP SETTINGS*
 
@@ -152,7 +152,7 @@ title : "4"
 ]}
 ]
 const listMessage = {
-text: `[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
+text: `[GHOST-MD]
 
      *BOT\'S SETTINGS*
 
@@ -212,7 +212,7 @@ title: "4"
 title: "Footer Text / Caption",
 rows: [{
 description: 'DEFAULT 🎲',
-rowId: '.footertxt ©ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ',
+rowId: '.footertxt ©GHOST-MD',
 title: "5"
 },
 {
@@ -225,7 +225,7 @@ title: "6"
 title: "Logo",
 rows: [{
 description: 'DEFAULT 🎲',
-rowId: '.setlogo https://telegra.ph/file/ba8ea739e63bf28c30b37.jpg',
+rowId: '.setlogo https://files.catbox.moe/fkbuo0.jpg',
 title: "7"
 },
 {
@@ -236,7 +236,7 @@ title: "8"
 ]},
 ]
 const listMessage = {
-text: `[🧚 ＱＵＥＥＮ -ＩＺＵＭＩ - ＭＤ 🧚]
+text: `[GHOST-MD]
 
      *BOT\'S CONFIG*
 
