@@ -16,7 +16,7 @@ else cants = "I cant find this anime."
 cmd({
     pattern: "anime",
     alias: ["animesearch","sanime"],
-    react: "⛩️",
+    react: "👾",
     desc: descgs,
     category: "search",
     use: '.anime astro',
